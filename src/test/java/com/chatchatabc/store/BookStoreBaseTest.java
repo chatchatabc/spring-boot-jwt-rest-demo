@@ -9,6 +9,6 @@ import org.springframework.test.context.ActiveProfiles;
 @SpringBootTest
 @ActiveProfiles("test")
 @DBRider
-@DBUnit(caseInsensitiveStrategy = Orthography.LOWERCASE, schema = "book_store")
+@DBUnit(caseInsensitiveStrategy = Orthography.LOWERCASE)
 public abstract class BookStoreBaseTest {
 }
