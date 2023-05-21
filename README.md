@@ -23,5 +23,6 @@ Run `mvn spring-boot:test-run` to start test App.
 # References
 
 * Spring Boot 3 Docs: https://docs.spring.io/spring-boot/docs/current/reference/html/
+* Testcontainers: https://www.testcontainers.org/
 * frontend-maven-plugin: https://github.com/eirslett/frontend-maven-plugin
 * Vite.js: https://vitejs.dev/
