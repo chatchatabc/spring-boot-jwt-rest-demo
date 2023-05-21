@@ -5,6 +5,15 @@ Spring REST API with JWT Authentication and MySQL database
 
 Run `mvn spring-boot:test-run` to start test App.
 
+# Development
+
+* Install Docker desktop from: https://www.docker.com/products/docker-desktop/
+* Start Infra Services by `docker compose up -d`
+* Run `mvn spring-boot:run` to start App.
+* Check MySQL mapping port for 3306 by `docker compose ps`, and modify `dev.database.url` in pom.xml
+* Run `mvn dbunit:operation` to import DBUnit dataset
+* Open `index.http` in IntelliJ IDEA, and click `getBookById` to test REST API.
+
 # Tech stack
 
 * Java 17
