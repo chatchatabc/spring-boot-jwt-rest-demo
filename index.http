@@ -1,0 +1,21 @@
+### health check without authentication required
+GET {{baseUrl}}/health.txt
+
+### health check by actuator
+GET http://localhost:8081/actuator/health
+
+### display application property sources
+GET http://localhost:8081/actuator/env
+
+### test auth
+POST {{apiBaseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "{{password}}"
+}
+
+### get dry run operation by id
+GET {{apiBaseUrl}}/book/1
+Authorization: Bearer {{access-token}}
