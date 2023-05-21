@@ -3,6 +3,6 @@ services:
     image: mysql:8.0.32
     environment:
        - MYSQL_ROOT_PASSWORD=123456
-       - MYSQL_DATABASE=jwt_demo
+       - MYSQL_DATABASE=book_store
     ports:
       - "3306"
