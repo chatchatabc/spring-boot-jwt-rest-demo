@@ -16,6 +16,7 @@ Content-Type: application/json
   "password": "{{password}}"
 }
 
-### get dry run operation by id
+### get book by id
+#@name getBookById
 GET {{apiBaseUrl}}/book/1
 Authorization: Bearer {{access-token}}
