@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE dataset SYSTEM "database.dtd">
+
+<dataset>
+    <operator id="1" name="admin" password="$2a$10$hKNgMklnpizydsekqU.0U.3JTqEC2I3jBr7crduya1paAtDNDNkDK"
+              role="ROLE_ADMIN" status="1" created_at="2023-05-10 11:11:11" updated_at="2023-05-10 11:11:11"/>
+</dataset>
